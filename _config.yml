@@ -1,0 +1,59 @@
+# Permalinks
+permalink:        pretty
+
+
+# Setup
+title:            Remy Alidarso's Blog
+tagline:          ''
+description:      'A blog about IT stuff'
+url:              http://remy.alidarso.com
+baseurl:          /
+
+author:
+  name:           'Remy Alidarso'
+  url:            https://twitter.com/RemyAlidarso
+
+paginate:         5
+
+# Custom vars
+version:          1.0.0
+
+github:
+  repo:           https://github.com/Remy541/remy541.github.io
+
+
+# Plugins
+whitelist: []
+gems:      [jekyll-paginate]
+
+
+# Conversion
+markdown:    kramdown
+highlighter: rouge
+lsi:         false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Serving
+detach:  false
+port:    4000
+host:    127.0.0.1
+baseurl: "" # does not include hostname
+show_dir_listing: false
+
+# Markdown Processors
+rdiscount:
+  extensions: []
+
+redcarpet:
+    extensions: ["no_intra_emphasis", "tables", "autolink", "strikethrough", "with_toc_data"]
+
+kramdown:
+  auto_ids:       true
+  footnote_nr:    1
+  entity_output:  as_char
+  toc_levels:     1..6
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  input:          GFM
+  hard_wrap:      false
+  footnote_nr:    1
