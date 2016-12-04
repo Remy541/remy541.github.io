@@ -23,7 +23,7 @@ This will start all Docker images in the devstreet.yml file. After waiting some 
 # Configuration  
 
 ## Jenkins  
-When you first start the services, you can visit them at the following addresses:
+When you first start the services, you can visit them at the following addresses:  
 - Jenkins: [http://localhost:8080](http://localhost:8080)  
 - Gitlab: [http://localhost](http://localhost)  
 - Sonar: [http://localhost:9000](http://localhost:9000)  
