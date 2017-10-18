@@ -23,8 +23,8 @@ github:
 
 
 # Plugins
-whitelist: []
-gems:      [jekyll-paginate]
+whitelist:        []
+plugins:          [jekyll-paginate]
 
 
 # Conversion
